@@ -50,7 +50,7 @@ export class ClientAWidgetComponent implements OnInit {
     value$: Observable<string>;
   
     ngOnInit(): void {
-      console.info('hello');
+      console.info('hello4');
       this.control.valueChanges.subscribe(x => console.debug(x));
       this.value$ = this.control.valueChanges;
     }
